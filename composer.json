@@ -1,5 +1,5 @@
 {
-    "name": "johnpbloch/composer-grunt-bridge",
+    "name": "edubacco/composer-grunt-bridge",
     "description": "Grunt integration for Composer packages.",
     "keywords": ["composer", "grunt", "package", "integration", "bridge", "plugin", "composer-plugin"],
     "homepage": "https://github.com/johnpbloch/composer-grunt-bridge",
@@ -13,9 +13,9 @@
     "type": "composer-plugin",
     "require": {
         "php": ">=5.4",
-        "composer-plugin-api": "^1.0",
+        "composer-plugin-api": "^1.1",
         "icecave/isolator": "~2",
-        "eloquent/composer-npm-bridge": "~2.1"
+        "eloquent/composer-npm-bridge": "^4.0"
     },
     "require-dev": {
         "composer/composer": "dev-master@dev"
